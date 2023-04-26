@@ -1,4 +1,4 @@
-import styled, { css, withTheme, ThemeProvider } from "styled-components";
+import styled, { ThemeProvider } from "styled-components";
 import dark from "./theme/dark";
 import light from "./theme/light";
 

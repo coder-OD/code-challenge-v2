@@ -49,13 +49,13 @@ const CardContent = ({theme}) => {
       <FlexBox alignItems="flex-end">
         <EditArea
           title="From Agoric"
-          img="/coin.png"
+          img={`${process.env.PUBLIC_URL}/coin.png`}
           content="ibc/2DA9C149E9AD2BD27FEFA635458FB37093C256C1A940392634A16BEA45262604"
         />
         <Arrow>-></Arrow>
         <EditArea
           title="To AssetMantle"
-          img="/mantle.png"
+          img={`${process.env.PUBLIC_URL}/mantle.png`}
           content="ibc/CBA34207E969623D95D057D9B11B0C8B32B89A71F170577D982FDDE623813FFC"
         />
       </FlexBox>

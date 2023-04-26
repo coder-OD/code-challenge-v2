@@ -86,7 +86,7 @@ const Amount = ({ title, img, content, editable, theme }) => {
         </Available>
       </Box>
       <SelectBox>
-        <Img src="/coin.png" />
+        <Img src={`${process.env.PUBLIC_URL}/coin.png`} />
         <AmountContent>2</AmountContent>
         <Atom>ATOM</Atom>
         <Dollar> =$1,013</Dollar>
